@@ -1,0 +1,19 @@
+{
+  "name": "my-telegram-bot",
+  "version": "1.0.0",
+  "description": "An Election bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anukriti Jha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "*",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "*",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
